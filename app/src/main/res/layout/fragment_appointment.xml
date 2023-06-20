@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppointmentFragment">
+
+   <ImageView
+       android:layout_width="300dp"
+       android:layout_height="300dp"
+       android:src="@drawable/img_9"
+       android:id="@+id/imgLogo"
+       android:layout_margin="60dp"
+       />
+    <TextView
+        android:id="@+id/bookTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You haven't booked any appointment"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@id/imgLogo"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookTitle"
+        android:text="Get started with your first checkup"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/aboutUs"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@id/aboutUs"
+        android:text="Book Now"
+        android:padding="5dp"
+        android:id="@+id/appointmentBtn"
+        />
+</RelativeLayout>

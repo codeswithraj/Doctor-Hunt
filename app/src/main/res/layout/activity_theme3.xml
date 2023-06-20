@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".themeActivity3">
+
+    <ImageView
+        android:layout_marginTop="-80dp"
+        android:id="@+id/theme1logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Easy Appointments"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/theme1title"
+        android:layout_below="@+id/theme1logo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Contary to popular belief. Lorem Ipsum is not simply random text. It has roots in a piece of it over 2000 years old."
+        android:textSize="17dp"
+        android:id="@+id/theme1description"
+        android:layout_below="@+id/theme1title"
+        android:textAlignment="center"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/theme1description"
+        android:backgroundTint="@color/lime"
+        android:text="Get Started"
+        android:id="@+id/btn3"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:textSize="17dp"
+        android:id="@+id/skipThree"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/btn3"
+        android:textAlignment="center"/>
+
+
+
+</RelativeLayout>

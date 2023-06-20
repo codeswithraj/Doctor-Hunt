@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorDetailsActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor's Details"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/deatils"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_below="@+id/deatils"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:elevation="60dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/img_5"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/image"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. John Deo"
+                android:layout_toRightOf="@+id/image"
+                android:textSize="25dp"
+                android:id="@+id/title"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:layout_toRightOf="@+id/image"
+                android:text="Specialist Medicine"
+                android:textColor="@color/lime"
+                android:id="@+id/decription"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/decription"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/experience"
+                android:text="⭐⭐⭐⭐⭐"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/decription"
+                android:layout_toRightOf="@+id/experience"
+                android:text="$ 28.00/hr"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/lime"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Book Now"
+                android:id="@+id/alertBtn"
+                android:backgroundTint="@color/lime"
+                android:layout_below="@+id/experience"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="100dp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+  </RelativeLayout>

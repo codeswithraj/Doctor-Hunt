@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item android:title="New Group"
+        android:icon="@drawable/baseline_remove_red_eye_24"
+        />
+    <item android:title="Contacts"
+        android:icon="@drawable/baseline_remove_red_eye_24"/>
+    <item android:title="Calls"
+        android:icon="@drawable/baseline_remove_red_eye_24"
+        />
+    <item android:title="People Nearby"
+        android:icon="@drawable/baseline_remove_red_eye_24"
+        />
+    <item android:title="Saved Mesasges"
+        android:icon="@drawable/baseline_remove_red_eye_24"
+        />
+    <item android:title="Settings"
+        android:icon="@drawable/baseline_remove_red_eye_24"
+        />
+    <item android:title="Invite Friends"
+        android:icon="@drawable/baseline_remove_red_eye_24"
+        />
+    <item android:title="Telegram Features"
+        android:icon="@drawable/baseline_remove_red_eye_24"
+        />
+</menu>
